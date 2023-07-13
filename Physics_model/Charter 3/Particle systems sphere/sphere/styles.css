@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.Vx_wind {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+.Vy_wind {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.Vz_wind {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+
+.d_wind {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+}
+
+.elasticity {
+    position: absolute;
+    top: 8px;
+    left: 300px;
+}
+
+.elasticity_text {
+    position: absolute;
+    top: 8px;
+    left: 450px;
+}
+
+.friction {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+.friction_text {
+    position: absolute;
+    top: 30px;
+    left: 450px;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+}

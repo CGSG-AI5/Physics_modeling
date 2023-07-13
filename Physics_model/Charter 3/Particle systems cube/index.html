@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset = "UTF_8">
+    <title> Platon body </title>
+    <link rel="stylesheet" href = "styles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <input type="range" min="0" max="1" step="0.1" value="0" id="id_range">
+        <div id="send_result" class = d_wind>d_wind: 50</div>
+    </div>
+
+    <div>
+        <input type="text" value = "0" id="Vwind_x">
+        <div id="send_result_Vwind_x" class = "Vx_wind">V.x: 0</div>
+    </div>
+
+    <div>
+        <input type="text" value = "0" id="Vwind_y">
+        <div id="send_result_Vwind_y" class = "Vy_wind">V.x: 0</div>
+    </div>
+
+    <div>
+        <input type="text" value = "0" id="Vwind_z">
+        <div id="send_result_Vwind_z" class = "Vz_wind">V.x: 0</div>
+    </div>
+
+    <div>
+        <input type="range" min="0" max="1" step="0.01" value="0" id="id_elasticity" class="elasticity">
+        <div id="send_result_elasticity" class="elasticity_text">elasticity: 50</div>
+    </div>
+
+    <div>
+        <input type="range" min="0" max="1" step="0.01" value="0" id="id_friction" class="friction">
+        <div id="send_result_friction" class="friction_text">friction: 50</div>
+    </div>
+
+
+    
+    
+
+    <!-- <script>
+        let rhg;
+        function fun() {      
+            rhg = send_result.innerHTML = id_range.value;     
+        }     
+    </script> -->
+
+
+    <canvas 
+    id = 'glCanvas'
+    width = '1200 px'
+    height = "1200 px"
+    style = "border: 1px solid red;">
+    </canvas> 
+    <script src = "./src/main.js" type = "module"></script>
+</body>
+</html>
